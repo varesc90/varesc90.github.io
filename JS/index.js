@@ -3,9 +3,12 @@ var slideIndex = 0;
 
 
 
-$(document).ready(function() {
 
+$(document).ready(function() {
+    $('html').show();
+    
     carousel();
+
 
 	$("#header li").mouseenter(function(){
 		$("#header").css("background-color","white")
@@ -15,7 +18,7 @@ $(document).ready(function() {
 		$("#header").css("background-color","")
 	});
 
-  
+
 
 })
 

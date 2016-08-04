@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  $('html').show();
 
 	$("#header li").mouseenter(function(){
 		$("#header").css("background-color","white")
@@ -20,12 +21,29 @@ $(document).ready(function() {
 
   	$("#business").click(function(){
   		fadeout("#body");
+      fadein("#businessBody");
   	})
 
+      $("#blog").click(function(){
+      fadeout("#body");
+      fadein("#blogBody");
+    })
+
  })
+
+
+/////////////////////////////////////
+//            Functions
+////////////////////////////////////
 
 function fadeout(element){
 	$(element).fadeOut("slow",function(){
 
 	});
+}
+
+function fadein(element){
+  $(element).fadeIn("slow",function(){
+
+  });
 }
