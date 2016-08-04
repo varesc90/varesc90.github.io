@@ -1,0 +1,150 @@
+html,body{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin:0;
+	height: 100%;
+	letter-spacing: 2px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+html{
+/*	background-color: lightblue;*/
+}
+
+li{
+	list-style-type: none;
+}
+
+
+
+/*=======================================
+
+		SLIDESHOW
+
+=========================================*/
+
+#slideShow{
+	width: 100%;
+	height: 100%;
+}
+
+#slideShow img{
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+#wording{
+	width: 70%;
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	text-align: center;
+}
+#wording p{
+	text-align: center; 
+}
+#topic{
+	font-size: 80px;
+}
+#details{
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+#button{
+	font-size: 20px;
+	background-color: lightblue;
+	padding: 20px;
+	border-radius: 20%;
+	border: black solid 1px;
+}
+
+
+/*=======================================
+
+		HEADER
+
+=========================================*/
+
+
+#header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: none;
+	height: 80px;
+	border:1px black solid;
+}
+
+
+
+
+#siteNavBar ul, #socialNavBar ul
+
+{
+	padding: 25px 20px 20px 20px;
+	float:left;
+	margin: 0;
+}
+
+#siteNavBar ul:hover , #socialNavBar ul:hover{
+	border-top: 4px solid brown;
+}
+
+
+
+#socialNavBar ul
+{
+	float: right;
+}
+
+
+/*=======================================
+
+		Body
+
+=========================================*/
+
+
+#body{
+	width: 70%;
+	left: 15%;
+	position: absolute;
+	border: 1px black solid;
+	top: 120px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+#bodyText{
+	margin-top: 30px;
+}
+
+#bodyText .headerText{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+
+#slideShow #bgImage{
+	opacity: 0.2;
+}
+
+#choices li{
+	text-align: center;
+	float:left;
+	width: 25%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#choices li{
+	cursor: pointer;
+}
+
+
