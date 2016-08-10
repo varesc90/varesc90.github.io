@@ -29,6 +29,11 @@ $(document).ready(function() {
       fadein("#blogBody");
     })
 
+    $("#restaurant").click(function(){
+      fadeout("#body");
+      fadein("#restaurantBody");
+    }) 
+
  })
 
 

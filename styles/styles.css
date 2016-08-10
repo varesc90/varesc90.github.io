@@ -106,12 +106,12 @@ li{
 
 /*=======================================
 
-		Body
+		Body_What you need..
 
 =========================================*/
 
 
-#body , #businessBody, #blogBody{
+#body , #businessBody, #blogBody ,#restaurantBody{
 	width: 70%;
 	left: 15%;
 	position: absolute;
@@ -132,8 +132,11 @@ li{
 }
 
 
+#bgImage{
+	opacity: 0.5;
+}
 #slideShow #bgImage{
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 #choices li{
@@ -149,16 +152,87 @@ li{
 	cursor: pointer;
 }
 
-#businessBody li,#blogBody li{
+#businessBody li,#blogBody li,#restaurantBody li{
 	list-style-type:  decimal;
 	list-style-position: inside;
 }
 
-#businessBody, #blogBody{
+#businessBody, #blogBody,#restaurantBody{
 	text-align: center;
 }
 
-#businessBody, #blogBody{
+#businessBody, #blogBody,#restaurantBody{
 	display:none;
 }
 
+#restaurantBody a {
+	color: blue;
+	text-decoration: initial;
+}
+
+/*=======================================
+
+		Folio
+
+=========================================*/
+
+#footer{
+	position:fixed;
+	bottom: 0;
+	height: 100px;
+}
+
+
+
+#webIcon img{
+	width: 10%;
+	margin: 2.5%;
+	float: left;
+}
+
+#showCase{
+	opacity: 0.5;
+	width: 100%;
+	height: 90%;
+	margin-top: 80px;
+}
+
+#someMusicLimited{
+	border: 1px solid black;
+}
+
+
+/*=======================================
+
+		About Me
+
+=========================================*/
+
+#aboutMeBody{
+	margin: 150px 100px 150px 100px;
+}
+
+#bodyContent{
+	font-size: 22px;
+}
+
+/*=======================================
+
+		Contact Me
+
+=========================================*/
+
+#contactme_blank{
+	margin-left: 15%;
+	width: 70%;
+	height: 200px;
+	font-size: 20px;
+}
+
+#submitButton{
+	text-align: center;
+}
+
+#submitButton input[type=text]{
+	padding: 5px;
+}
