@@ -49,6 +49,15 @@ li{
 
 }
 
+@media all and (max-width: 375px){
+	#laptop_format{
+		display:none;
+	}
+}
+
+@media all and (min-width: 376px){
+
+
 /*=======================================
 
 		SLIDESHOW
@@ -89,6 +98,10 @@ li{
 	padding: 20px;
 	border-radius: 20%;
 	border: black solid 1px;
+}
+
+#button:hover{
+	opacity: 0.5;
 }
 
 
@@ -145,6 +158,18 @@ li{
 
 =========================================*/
 
+span.backbutton{
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	font-size: 50px;
+}
+
+span.backbutton:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
 
 #body , #businessBody, #blogBody ,#restaurantBody{
 	width: 70%;
@@ -158,20 +183,23 @@ li{
 
 #bodyText{
 	margin-top: 30px;
+	font-weight: bold;
+	line-height: 300%;
 }
 
 .headerText{
 	text-align: center;
 	padding-top: 30px;
 	font-size: 30px;
+	font-weight: normal;
 }
 
 
 #bgImage{
-	opacity: 0.5;
+	opacity: 0.3;
 }
 #slideShow #bgImage{
-	opacity: 0.3;
+	opacity: 0.2;
 }
 
 #choices li{
@@ -211,13 +239,27 @@ li{
 
 =========================================*/
 
+
+#folio_body p{
+	text-align: center;
+}
 #footer{
 	position:fixed;
 	bottom: 0;
 	height: 100px;
 }
 
-
+#display{
+	margin-top: 105px;
+	width: 90%;
+	margin-left: 5%;
+	height: 400px;
+	background-image: url();
+}
+#caption{
+	text-align: center;
+	margin-top: 30px;
+}
 
 #webIcon img{
 	width: 10%;
@@ -234,6 +276,11 @@ li{
 
 #someMusicLimited{
 	border: 1px solid black;
+}
+
+#caption1,#caption2,#caption3{
+
+	display:none;
 }
 
 
@@ -270,4 +317,6 @@ li{
 
 #submitButton input[type=text]{
 	padding: 5px;
+}
+
 }

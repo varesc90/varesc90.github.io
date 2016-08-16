@@ -14,20 +14,21 @@
 <p id="topic">Thank You</p>
 
 
-<section id ="header">
+	<section id ="header">
 		<li id="siteNavBar">
+				<a href="index.html"><ul id= "logo"><img src="images/Logo.png"></ul></a>
 				<a href="whatyouneed.html"><ul>What you need..</ul></a>
-				<a href="folio.html"><ul>Folio</ul></a>
+				<a href="folio.html"><ul>My Folio</ul></a>
 				<a href=""><ul>Get a quote</ul></a>
 				<a href="aboutme.html"><ul>About Me</ul></a>
-				<a href=""><ul>Contact Me</ul></a>
+				<a href="contactme.php"><ul>Contact Me</ul></a>
 		</li>
 		
 		<li id="socialNavBar">
-					<a href=""><ul>FACEBOOK</ul></a>
-					<a href=""><ul>TWITTER</ul></a>
+					<a href=""><ul><img src="images/facebook.jpg"></ul></a>
+					<a href=""><ul><img src="images/twitter.png"></ul></a>
 		</li>
-</section>
+	</section>
 
 <?php  
 

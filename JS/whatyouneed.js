@@ -1,3 +1,7 @@
+
+var x;
+
+
 $(document).ready(function() {
 
   $('html').show();
@@ -34,7 +38,12 @@ $(document).ready(function() {
       fadein("#restaurantBody");
     }) 
 
+    $(".backbutton").click(function(){
+      backToPrev(x);
+    })
  })
+
+
 
 
 /////////////////////////////////////
@@ -49,6 +58,13 @@ function fadeout(element){
 
 function fadein(element){
   $(element).fadeIn("slow",function(){
-
   });
+  x = element;
+  console.log(x);
+}
+
+function backToPrev(element){
+  fadeout(element);
+  console.log(element);
+  fadein("#body");
 }
