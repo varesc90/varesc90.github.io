@@ -22,13 +22,16 @@ li{
 
 @media (max-width: 500px){
 
+/*MOBILE HEADER*/
+
+
 	#laptop_format{
 		display:none;
 	}
 
 	#mobile_header{
 		background-color: #C8988E;
-		position: absolute;
+		position: fixed;
 		top: 0;
 	}
 
@@ -44,7 +47,8 @@ li{
 	#mobile_logotext{
 		margin: 0px;
 		position: absolute;
-		top: 20px;
+		top: 12px;
+		font-size: 25px;
 	}
 
 	#ham_menu{
@@ -53,8 +57,57 @@ li{
 		left: 2%;
 		top: 10px;
 	}
-}
 
+/*==============================*/
+
+/*Mobile_body*/
+
+	#mobile_slideShow{
+	width: 100%;
+	}
+
+	#mobile_slideShow img{
+	margin-top: 50px;
+	width: 100%;
+	opacity: 0.3;
+	}
+	#mobile_slideShow #wording{
+	width: 70%;
+	position: absolute;
+	top: 20%;
+	left: 15%;
+	text-align: center;
+	}
+	#mobile_slideShow #wording p{
+	text-align: center; 
+	}
+	#mobile_slideShow #topic{
+	font-size: 30px;
+	}
+	#mobile_slideShow #details{
+	font-size: 20px;
+	padding-bottom: 50px;
+	}
+
+	#mobile_slideShow #button{
+	font-size: 20px;
+	background-color: lightblue;
+	padding: 20px;
+	border-radius: 20%;
+	border: black solid 1px;
+	}
+	#mobile_footer{
+		position: absolute;
+		bottom: 0;
+		width: 90%;
+	}
+
+	#mobile_footer p{
+
+		margin-left: 15%;
+
+	}
+}
 
 @media all and (max-width: 1108px) and (min-width: 500px)
 {
