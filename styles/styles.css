@@ -20,9 +20,47 @@ li{
 	list-style-type: none;
 }
 
+@media (max-width: 500px){
 
-@media all and (max-width: 1108px)
+	#laptop_format{
+		display:none;
+	}
+
+	#mobile_header{
+		background-color: #C8988E;
+		position: absolute;
+		top: 0;
+	}
+
+	#mobile_logo{
+
+		width: 20%;
+		padding-left: 30%;
+	}
+	#mobile_logo img{
+		width: 20%;
+	}
+
+	#mobile_logotext{
+		margin: 0px;
+		position: absolute;
+		top: 20px;
+	}
+
+	#ham_menu{
+		width: 10%;
+		position:absolute;
+		left: 2%;
+		top: 10px;
+	}
+}
+
+
+@media all and (max-width: 1108px) and (min-width: 500px)
 {
+	#mobile_format{
+		display:none;
+	}
 	#siteNavBar ul{
 	width: 13%;
 	padding: 25px 1.5% 20px 1.5%;
@@ -46,16 +84,10 @@ li{
 	#siteNavBar #logo{
 		padding:0;
 	}
-
-}
-
-@media all and (max-width: 375px){
-	#laptop_format{
+	#mobile_format{
 		display:none;
 	}
 }
-
-@media all and (min-width: 376px){
 
 
 /*=======================================
