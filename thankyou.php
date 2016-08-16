@@ -16,7 +16,6 @@
 
 <section id ="header">
 		<li id="siteNavBar">
-				<a href="index.html"><ul>LOGO GO HERE</ul></a>
 				<a href="whatyouneed.html"><ul>What you need..</ul></a>
 				<a href="folio.html"><ul>Folio</ul></a>
 				<a href=""><ul>Get a quote</ul></a>

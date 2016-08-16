@@ -21,6 +21,33 @@ li{
 }
 
 
+@media all and (max-width: 1108px)
+{
+	#siteNavBar ul{
+	width: 13%;
+	padding: 25px 1.5% 20px 1.5%;
+	}
+
+	#socialNavBar ul{
+		display:none;
+	}
+
+		#siteNavBar #logo{
+		padding:0;
+	}
+
+}
+
+@media all and (min-width: 1109px){
+
+	#siteNavBar ul{
+	padding: 25px 20px 20px 20px;
+	}
+	#siteNavBar #logo{
+		padding:0;
+	}
+
+}
 
 /*=======================================
 
@@ -36,7 +63,7 @@ li{
 #slideShow img{
 	width: 100%;
 	height: 100%;
-	opacity: 0.5;
+	opacity: 0.3;
 }
 #wording{
 	width: 70%;
@@ -82,12 +109,9 @@ li{
 }
 
 
-
-
 #siteNavBar ul, #socialNavBar ul
 
 {
-	padding: 25px 20px 20px 20px;
 	float:left;
 	margin: 0;
 }
@@ -100,9 +124,20 @@ li{
 
 #socialNavBar ul
 {
+	width: 4%;
+	padding: 20px 15px 20px 15px;
 	float: right;
 }
 
+#socialNavBar img{
+	width: 100%;
+}
+
+
+
+#logo img{
+	width: 100px;
+}
 
 /*=======================================
 
